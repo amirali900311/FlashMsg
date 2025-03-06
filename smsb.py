@@ -5,29 +5,16 @@ import os
 
 try:
     from requests import get, post, options
-except ImportError:
-    print(
-        "You need to install requests to use this module!\ninstalling requests lib... run program after a few seconds")
-    os.system("pip install requests")
-    exit()
-
-try:
     from fake_useragent import UserAgent
 except ImportError:
     print(
-        "You need to install fake_useragent to use this module!\ninstalling fake_useragent lib... run program after a few seconds")
-    os.system("pip install fake_useragent")
+        "You need to install some libs to use this module!\ninstalling libs... run program after a few seconds")
+
+    os.system("pip install -r requirements.txt")
     exit()
 
-ua = UserAgent()
 
-phonenumbers = {'reza': "09965997022",
-                'habibi': "09044509384",
-                'EHSAN': "09044433580",
-                'Nima': "09157915254",
-                'ehsan': "09030231850",
-                'rezaiee': "09391399237",
-                'amin': "09367321850"}
+ua = UserAgent()
 
 
 def makeheader():
