@@ -33,10 +33,7 @@ def banner():
  ░         ░  ░      ░   ░ ░▒  ░ ░     ░   ░ 
  ░ ░       ░      ░      ░  ░  ░     ░ ░   ░ 
                   ░            ░           ░ 
-                                             
-
-                                   
-                                                                    
+                                                                                                                
                  By amirali900311
             \"Use it at your own risk!\"
 there is a limit ! you can use it just in iran!\n\n""")
